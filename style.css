@@ -1,0 +1,64 @@
+.grid {
+    display: grid;
+    margin: auto;
+    width: 600px;
+    height: 700px;
+}
+
+#displayPanel {
+    display: block;
+    width: 600px;
+    height: 200px;
+    margin-top: 0px;
+    background-color: dimgrey;
+    color: indigo;
+    text-align: center;
+    font-size: 100px;
+}
+
+#functionPanel {
+    display: block;
+    width: 400px;
+    height: 100px;
+    margin-top:  0px;
+    background-color: goldenrod;
+}
+#functionPanel button {
+    margin: 20px;
+    width: 360px;
+    border-width: 10px;
+    background-color: darkgoldenrod;
+    border-color: darkgoldenrod;
+    font-size: 30px;
+}
+
+#numberPanel {
+    display: block;
+    width: 400px;
+    height: 440px;
+    margin-top: 0px;
+    background-color: darkcyan;
+}
+#numberPanel button {
+    margin: 21px;
+    border-width: 20px;
+    border-color: indianred;
+    background-color: indianred;
+    font-size: 20px;
+}
+
+#operatorPanel {
+    display: block;
+    width: 200px;
+    height: 540px;
+    margin-left: 400px;
+    margin-top: -540px;
+    background-color: firebrick;
+}
+#operatorPanel button {
+    margin: 30px;
+    border-width: 20px;
+    background-color: cadetblue;
+    border-color:  cadetblue;
+    font-size: 20px;
+}
